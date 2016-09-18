@@ -24,8 +24,8 @@
 	}
 
 	#logo{
-		width: 238px;
-		height: 263px;
+		height: 238px;
+		width: 263px;
 		border: 2px dotted black;
 	}
 
@@ -3958,12 +3958,12 @@
 			#banner input[type="button"].special,
 			#banner button.special,
 			#banner .button.special {
-				background-color: #51BAA4;
+				background-color: #C70039;
 				box-shadow: none;
 				color: #fff !important;
 			}
 			#banner .button.special2 {
-				background-color: #51dA24;
+				background-color: #C70039;
 				box-shadow: none;
 				color: #fff !important;
 			}
@@ -3972,8 +3972,9 @@
 				#banner input[type="reset"].special:hover,
 				#banner input[type="button"].special:hover,
 				#banner button.special:hover,
+				#banner .button.special2:hover,
 				#banner .button.special:hover {
-					background-color: #63c1ae;
+					background-color: #F5A8BF;
 				}
 
 				#banner input[type="submit"].special:active,
