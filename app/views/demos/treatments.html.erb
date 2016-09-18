@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<h1> Treatments </h1>
+
+
+<% @treatments.each do |treatment| %>
+  <ul> 
+    <li>Name: <%= treatment.name %></li>
+    <li>Average price: <%= treatment.average_price %></li>
+  </ul>
+  <br>
+<% end %>
+
+
+</html>

@@ -3956,6 +3956,11 @@
 				box-shadow: none;
 				color: #fff !important;
 			}
+			#banner .button.special2 {
+				background-color: #51dA24;
+				box-shadow: none;
+				color: #fff !important;
+			}
 
 				#banner input[type="submit"].special:hover,
 				#banner input[type="reset"].special:hover,
