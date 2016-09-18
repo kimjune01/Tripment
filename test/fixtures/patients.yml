@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  treatment_id: 1
+  detail: MyString
+  max_price: 
+  image_url: MyString
+
+two:
+  name: MyString
+  treatment_id: 1
+  detail: MyString
+  max_price: 
+  image_url: MyString
