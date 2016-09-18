@@ -10,12 +10,14 @@ john = Patient.new
 john.name = "John Gold"
 john.detail = "Bladder Cancer, Stage 2"
 john.max_price = 75600
+john.image_url = "https://pbs.twimg.com/profile_images/1501070030/John_2011_1_500x500.png"
 john.save!
 
 miriam = Patient.new
 miriam.name = "Miriam Lee"
 miriam.detail = "Leukemia, Stage 1"
 miriam.max_price = 231000
+miriam.image_url = "https://97waterlooroad.files.wordpress.com/2013/01/miriam-dixon-ceo.jpg"
 miriam.save!
 
 chemo = Treatment.new
