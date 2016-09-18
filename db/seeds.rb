@@ -23,10 +23,11 @@ miriam.save!
 chemo = Treatment.new
 chemo.name = "Chemotherapy"
 chemo.average_price = "234000"
+chemo.image_url = "http://biotechstocks.com/wp-content/uploads/2015/06/machine.jpg"
 chemo.save!
 
 leukemia = Treatment.new
 leukemia.name = "Leukemia surgery"
 leukemia.average_price = "123000000"
+leukemia.image_url = "http://www.healthywomen.org/sites/default/files/leukemia.jpg"
 leukemia.save!
-

@@ -47,6 +47,7 @@ ActiveRecord::Schema.define(version: 20160917234947) do
     t.integer  "average_price"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
+    t.string "image_url"
   end
 
 end
