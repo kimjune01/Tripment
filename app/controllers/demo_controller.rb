@@ -21,4 +21,8 @@ def new_doctor
   @doctor.save!
 end
 
+def new_profile
+	render 'demos/new_profile'
+end
+
 end
