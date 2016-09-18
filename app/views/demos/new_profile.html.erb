@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Retrospect by TEMPLATED</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<%= stylesheet_link_tag "main" %>
+
+	</head>
+	<body class="landing">
+
+		<!-- Header -->
+			<header id="header" class="alt">
+				<h1 style="color:black">TRIPMENT</h1>
+				<!-- <a href="#nav">Menu</a> -->
+			</header>
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="generic.html">Generic</a></li>
+					<li><a href="elements.html">Elements</a></li>
+				</ul>
+			</nav>
+
+		<!-- Banner -->
+			<section id="banner">
+				<h1 style="font-size:70px;">NEW PATIENTS</h1>
+				<ul class="actions">
+					<li><a href="/demo" class="button big special">Back</a></li>
+				</ul>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper style1">
+				<div class="inner">
+						<div class="content">
+              <form onSubmit="return false">
+                <div class="col-2">
+                  <label>
+                    Name
+                    <input placeholder="What is your full name?" id="name" name="name" tabindex="1">
+                  </label>
+                </div>
+                <div class="col-2">
+                  <label>
+                    Profile Type
+                    <input placeholder="Are you a doctor or a patient?" id="type" name="type" tabindex="2">
+                  </label>
+                </div>
+
+                <div class="col-3">
+                  <label>
+                    Treatment
+                    <input placeholder="What treatment are you offering/do you need?" id="treatment" name="treatment" tabindex="3">
+                  </label>
+                </div>
+                <div class="col-3">
+                  <label>
+                    Budget
+                    <input placeholder="What is your budget?" id="budget" name="budget" tabindex="4">
+                  </label>
+                </div>
+
+              </form>
+							<ul class="actions">
+								<li>
+									<a href="#" class="button alt">More</a>
+								</li>
+							</ul>
+						</div>
+				</div>
+			</section>
+
+		<!-- Scripts -->
+		<%= javascript_include_tag "jquery.min" %>
+		<%= javascript_include_tag "skel.min" %>
+		<%= javascript_include_tag "util" %>
+		<%= javascript_include_tag "main" %>
+
+	</body>
+</html>
